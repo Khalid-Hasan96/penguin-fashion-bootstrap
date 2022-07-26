@@ -14,43 +14,41 @@
 </head>
 
 <body>
-    <header>
+    <header class="my-5">
         <!-- navbar start -->
-        <nav class="navbar navbar-expand-lg nav-background">
-            <div class="container">
-                <a class="navbar-brand" href="#"><img width="300px" src="./images/logo/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-4 mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link fw-semibold" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active fw-semibold" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Products
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item fw-semibold" href="#">Jackets</a></li>
-                                <li><a class="dropdown-item fw-semibold" href="#">Bags</a></li>
-                                <li><a class="dropdown-item fw-semibold" href="#">Shoes</a></li>
+        <nav class="navbar navbar-expand-lg nav-background fixed-top">
 
-
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-semibold" aria-current="page" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-semibold" aria-current="page" href="#">Subscribe</a>
-                        </li>
-                    </ul>
-                </div>
+            <a class="navbar-brand" href="#"><img width="300px" src="./images/logo/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-4 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active fw-semibold" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item fw-semibold" href="#">Jackets</a></li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Bags</a></li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Shoes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" aria-current="page" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" aria-current="page" href="#">Subscribe</a>
+                    </li>
+                </ul>
             </div>
+
         </nav>
         <!-- navbar end -->
 
@@ -59,32 +57,41 @@
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class=" p-4 d-flex justify-content-evenly align-items-center back-color">
-                            <div>
-                                <h1>Be the Penguins of Winter</h1>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                <a href="#" class="button-decoration rounded fs-5"><i
-                                        class="fa-solid fa-cart-shopping"></i>
-                                    &nbsp; Buy
-                                    Now</a>
-                            </div>
-                            <div>
-                                <img src="./images/banner/model.png" class="d-block w-100" alt="...">
+                        <div class="back-color">
+                            <div class="container p-4 d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h1 class="penguins-title"><span class="penguins-title-color">Be the Penguins</span>
+                                        <br> <span class="title-rest">of Winter</span>
+                                    </h1>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <a href="#" class="button-decoration rounded fs-5"><i
+                                            class="fa-solid fa-cart-shopping"></i>
+                                        &nbsp; Buy
+                                        Now</a>
+                                </div>
+                                <div>
+                                    <img src="./images/banner/model.png" class="d-block w-100" alt="...">
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class=" p-5 d-flex justify-content-evenly align-items-center second-back-color">
-                            <div>
-                                <img src="./images/banner/banner-2.png" class="d-block w-100" alt="...">
-                            </div>
-                            <div>
-                                <h1>Be the Penguins of Winter</h1>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                <a href="#" class="button-decoration rounded fs-5"><i
-                                        class="fa-solid fa-cart-shopping"></i>
-                                    &nbsp; Buy
-                                    Now</a>
+                        <div class="second-back-color">
+                            <div class="p-5 d-flex justify-content-between align-items-center container">
+                                <div>
+                                    <img src="./images/banner/banner-2.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div>
+                                    <h1 class="penguins-title"><span class="nike-color">Nike React</span> <br> <span
+                                            class="title-rest">Infinity
+                                            Run</span>
+                                        2</h1>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <a href="#" class="nike-button-decoration rounded fs-5"><i
+                                            class="fa-solid fa-cart-shopping"></i>
+                                        &nbsp; Buy
+                                        Now</a>
+                                </div>
                             </div>
                         </div>
 
@@ -95,7 +102,408 @@
         <!-- slider end -->
     </header>
     <main>
+        <!-- Jacket Item -->
+        <section class="container my-5">
+            <h1 class="mb-3">Woman Jacket</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mx-auto">
+                <div class="col">
+                    <div class="card border-0 shadow-lg p-3">
+                        <img src="./images/products/jacket/jacket-1.png" height="350px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">Yellow Coat Jacket</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h2 class="penguins-title-color">$234</h2>
+                                <a href="#" class="price-button rounded fs-6"><i class="fa-solid fa-cart-shopping"></i>
+                                    &nbsp; Buy
+                                    Now</a>
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg p-3">
+                        <img src="./images/products/jacket/jacket-2.png" height="350px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">Coat Jacket</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h2 class="penguins-title-color">$250</h2>
+                                <a href="#" class="price-button rounded fs-6"><i class="fa-solid fa-cart-shopping"></i>
+                                    &nbsp; Buy
+                                    Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg p-3">
+                        <img src="./images/products/jacket/jacket-3.png" height="350px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">Red Leather Jacket</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h2 class="penguins-title-color">$300</h2>
+                                <a href="#" class="price-button rounded fs-6"><i class="fa-solid fa-cart-shopping"></i>
+                                    &nbsp; Buy
+                                    Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- man jacket section -->
+        <section class="container my-5">
+            <h1 class="mb-3">Men Jacket</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mx-auto">
+                <div class="col">
+                    <div class="card border-0 shadow-lg p-3">
+                        <img src="./images/products/jacket/jacket-4.png" height="350px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">Snowboard Jacket Mens</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h2 class="penguins-title-color">$260</h2>
+                                <a href="#" class="price-button rounded fs-6"><i class="fa-solid fa-cart-shopping"></i>
+                                    &nbsp; Buy
+                                    Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg p-3">
+                        <img src="./images/products/jacket/jacket-5.png" height="350px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">Man Leather Jacket</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h2 class="penguins-title-color">$350</h2>
+                                <a href="#" class="price-button rounded fs-6"><i class="fa-solid fa-cart-shopping"></i>
+                                    &nbsp; Buy
+                                    Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg p-3">
+                        <img src="./images/products/jacket/jacket-6.png" height="350px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">Man Casual Jacket</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h2 class="penguins-title-color">$199</h2>
+                                <a href="#" class="price-button rounded fs-6"><i class="fa-solid fa-cart-shopping"></i>
+                                    &nbsp; Buy
+                                    Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- casual shoes -->
+        <section class="container my-5">
+            <h1 class="mb-3">Backpack</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mx-auto">
+                <div class="col">
+                    <div class="card border-0 shadow-lg p-3">
+                        <img src="./images/products/bags/bag-1.png" height="350px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">Red Bag</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h2 class="penguins-title-color">$200</h2>
+                                <a href="#" class="price-button rounded fs-6"><i class="fa-solid fa-cart-shopping"></i>
+                                    &nbsp; Buy
+                                    Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg p-3">
+                        <img src="./images/products/bags/bag-2.png" height="350px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">Blue Bag</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h2 class="penguins-title-color">$250</h2>
+                                <a href="#" class="price-button rounded fs-6"><i class="fa-solid fa-cart-shopping"></i>
+                                    &nbsp; Buy
+                                    Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg p-3">
+                        <img src="./images/products/bags/bag-3.png" height="350px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">Black Bag</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h2 class="penguins-title-color">$300</h2>
+                                <a href="#" class="price-button rounded fs-6"><i class="fa-solid fa-cart-shopping"></i>
+                                    &nbsp; Buy
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container my-5">
+            <h1 class="mb-3">Casual Shoes</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mx-auto">
+                <div class="col">
+                    <div class="card border-0 shadow-lg p-3">
+                        <img src="./images/products/shoes/casual-1.png" height="350px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">Nike Shoe</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h2 class="penguins-title-color">$250</h2>
+                                <a href="#" class="price-button rounded fs-6"><i class="fa-solid fa-cart-shopping"></i>
+                                    &nbsp; Buy
+                                    Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg p-3">
+                        <img src="./images/products/shoes/casual-2.png" height="350px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">Sneakers Skate Shoe </h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h2 class="penguins-title-color">$250</h2>
+                                <a href="#" class="price-button rounded fs-6"><i class="fa-solid fa-cart-shopping"></i>
+                                    &nbsp; Buy
+                                    Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg p-3">
+                        <img src="./images/products/shoes/casual-3.png" height="350px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">Sneakers Basketball shoe</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h2 class="penguins-title-color">$300</h2>
+                                <a href="#" class="price-button rounded fs-6"><i class="fa-solid fa-cart-shopping"></i>
+                                    &nbsp; Buy
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg p-3">
+                        <img src="./images/products/shoes/shoe-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">Sneakers Basketball shoe</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h2 class="penguins-title-color">$300</h2>
+                                <a href="#" class="price-button rounded fs-6"><i class="fa-solid fa-cart-shopping"></i>
+                                    &nbsp; Buy
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg p-3">
+                        <img src="./images/products/shoes/shoe-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">Sneakers Basketball shoe</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h2 class="penguins-title-color">$300</h2>
+                                <a href="#" class="price-button rounded fs-6"><i class="fa-solid fa-cart-shopping"></i>
+                                    &nbsp; Buy
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg p-3">
+                        <img src="./images/products/shoes/shoe-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">Sneakers Basketball shoe</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h2 class="penguins-title-color">$300</h2>
+                                <a href="#" class="price-button rounded fs-6"><i class="fa-solid fa-cart-shopping"></i>
+                                    &nbsp; Buy
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- formal shoes -->
+        <section class="container my-5">
+            <h1 class="mb-3">Formal Shoes</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mx-auto">
+                <div class="col">
+                    <div class="card border-0 shadow-lg p-3">
+                        <img src="./images/products/shoes/formal-1.png" height="350px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">Prestige High-Cut Leather </h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h2 class="penguins-title-color">$250</h2>
+                                <a href="#" class="price-button rounded fs-6"><i class="fa-solid fa-cart-shopping"></i>
+                                    &nbsp; Buy
+                                    Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg p-3">
+                        <img src="./images/products/shoes/formal-2.png" height="350px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">Slip-On Formal Shoe</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h2 class="penguins-title-color">$250</h2>
+                                <a href="#" class="price-button rounded fs-6"><i class="fa-solid fa-cart-shopping"></i>
+                                    &nbsp; Buy
+                                    Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg p-3">
+                        <img src="./images/products/shoes/formal-3.png" height="350px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">Slip-On Formal Shoe</h3>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <h2 class="penguins-title-color">$300</h2>
+                                <a href="#" class="price-button rounded fs-6"><i class="fa-solid fa-cart-shopping"></i>
+                                    &nbsp; Buy
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
