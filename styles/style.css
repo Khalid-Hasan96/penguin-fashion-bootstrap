@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.nav-background {
+    background-color: #FFF9F4;
+}
+
+.back-color {
+    background-color: #FFFBF0;
+}
+
+.second-back-color {
+    background-color: #FFF9F4;
+}
+
+.button-decoration {
+    text-decoration: none;
+    background-color: #A4BC46;
+    color: #fff;
+    padding: 10px 28px;
+}
+
+.button-decoration img {
+    height: 24px;
+}
